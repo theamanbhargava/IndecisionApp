@@ -62,13 +62,5 @@ typings/
 # dotenv environment variables file
 .env
 
-
-.gitignore
-.idea/
-bundle.js
-card.json
-package.json
 playground/
-public/
-src/
-yarn.lock
+public/scripts
