@@ -1,7 +1,23 @@
-// install -> import -> use
 import React from 'react';
 import ReactDOM from 'react-dom';
+import IndecisionApp from './components/IndecisionApp'
 
-const template = <h1>hello world!</h1>;
+ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
 
-ReactDOM.render(template, document.getElementById('app'));
+class OldSyntax {
+    constructor(){
+        this.name = 'Mike';
+    }
+    getGreeting() {
+        return `Hi. I am ${this.name}!`;
+    }
+}
+const oldSyntax = new OldSyntax();
+console.log(oldSyntax.getGreeting());
+
+class NewSyntax{
+    name = 'Jen';
+}
+
+const newSyntax = new NewSyntax();
+console.log(newSyntax);
