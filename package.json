@@ -18,7 +18,18 @@
     "live-server": "^1.2.0",
     "react": "15.6.1",
     "react-dom": "15.6.1",
+    "react-modal": "^2.2.2",
     "validator": "8.0.0",
     "webpack": "3.1.0"
-  }
+  },
+  "description": "To run :  * `git clone` * `cd indecision_app` * `npm install` * `npm run build` * `npm run serve`",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theamanbhargava/IndecisionApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theamanbhargava/IndecisionApp/issues"
+  },
+  "homepage": "https://github.com/theamanbhargava/IndecisionApp#readme"
 }
